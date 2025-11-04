@@ -1,7 +1,7 @@
 import { QRCodeCanvas } from "qrcode.react";
 
 export default function QrGenerator() {
-  const url = "https://tihona-qr.vercel.app/play";
+  const url = "https://tihona-qr.vercel.app/#/play";
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800">
